@@ -1,0 +1,99 @@
+{
+  "records": 23715,
+  "source": "Synthetic demo data, explicitly requested with --allow-demo",
+  "random_forest": {
+    "accuracy": 0.8543116171199663,
+    "precision": 0.7288242730720607,
+    "recall": 0.8148409893992933,
+    "f1": 0.7694361027694361,
+    "kfold_accuracy_mean": 0.8504743833017077,
+    "kfold_accuracy_std": 0.001825415207414157,
+    "confusion_matrix_fast_slow": [
+      [
+        1153,
+        262
+      ],
+      [
+        429,
+        2899
+      ]
+    ]
+  },
+  "clustering": {
+    "best_k": 12,
+    "silhouette_scores": [
+      {
+        "k": 2,
+        "silhouette_score": 0.49427426846939215
+      },
+      {
+        "k": 3,
+        "silhouette_score": 0.591409853714817
+      },
+      {
+        "k": 4,
+        "silhouette_score": 0.6528744765480353
+      },
+      {
+        "k": 5,
+        "silhouette_score": 0.7045038442111703
+      },
+      {
+        "k": 6,
+        "silhouette_score": 0.7105159926841202
+      },
+      {
+        "k": 7,
+        "silhouette_score": 0.7607456882766895
+      },
+      {
+        "k": 8,
+        "silhouette_score": 0.783531673883341
+      },
+      {
+        "k": 9,
+        "silhouette_score": 0.7883893730521527
+      },
+      {
+        "k": 10,
+        "silhouette_score": 0.8257872799927087
+      },
+      {
+        "k": 11,
+        "silhouette_score": 0.8770233757308626
+      },
+      {
+        "k": 12,
+        "silhouette_score": 0.900679224255451
+      }
+    ]
+  },
+  "optimization": {
+    "macro_clusters": 12,
+    "station_count": 120,
+    "average_corrected_distance_m": 11669.517434133673,
+    "median_corrected_distance_m": 10980.622307999789,
+    "p90_corrected_distance_m": 18378.805531327787,
+    "coverage_within_2km_pct": 1.6993464052287581
+  },
+  "baselines": [
+    {
+      "algorithm": "K-means",
+      "distance_score_km": 11.327310711108483,
+      "estimated_response_time_min": 19.418246933328827,
+      "coverage_within_5km_pct": 11.78
+    },
+    {
+      "algorithm": "Gaussian Mixture Model",
+      "distance_score_km": 11.42346962494999,
+      "estimated_response_time_min": 19.583090785628553,
+      "coverage_within_5km_pct": 13.320000000000002
+    },
+    {
+      "algorithm": "Agglomerative Clustering",
+      "distance_score_km": 11.433464296505816,
+      "estimated_response_time_min": 19.600224508295685,
+      "coverage_within_5km_pct": 11.360000000000001
+    }
+  ]
+}

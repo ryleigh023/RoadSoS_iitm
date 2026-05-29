@@ -1,0 +1,12 @@
+{
+  "name": "roadsos-database",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "seed": "node cosmos-seed.js"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.2.0",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -1,8 +1,8 @@
 # RoadSoS
 
-# For road safety hackathon - 2026
-# Team Zanke 
-# Demo video : https://drive.google.com/file/d/1R1WtdiCCm2kraWZ-Z66HHf8_NNos02uS/view?usp=sharing
+## For road safety hackathon - 2026
+## Team Zanke 
+## Demo video : https://drive.google.com/file/d/1R1WtdiCCm2kraWZ-Z66HHf8_NNos02uS/view?usp=sharing
 **RoadSoS** is a Golden Hour emergency road-response PWA. It helps accident victims and bystanders quickly find nearby hospitals, trauma centres, ambulances, police stations, blood banks, towing services, and tyre shops, even in poor-network conditions.
 
 ## What It Does
